@@ -5,15 +5,16 @@ RUN apt-get update -qq && \
     ca-certificates \
     cpio \
     git \
+    wget \
     make \
     bc \
     zip \ 
     curl \
     gcc \
     libc6-dev \
-    python3-minimal \ 
-    libssl-dev \ 
-    flex \ 
+    python3-minimal \
+    libssl-dev \
+    flex \
     bison && \
     apt-get autoremove -y && \
     apt-get clean autoclean && \
